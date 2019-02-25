@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#mainContent {
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+#containerOmdb,
+#containerFavs {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#containerOmdb {
+  border-right: 1px solid black;
+}
+
+#omdbgrid, #favGrid {
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#favGrid .cell {
+  cursor: not-allowed;
+}
+
+#omdbgrid .cell {
+  cursor: pointer;
+}
+  
+.cell {
+  width: 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+image, .header, img {
+  color: white;
+  width: 100%;
+  background-color: black;
+}
+
+.header {
+  font-size: 0.6em;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 20%;
+}
+.image {
+  height: 80%;
+}
